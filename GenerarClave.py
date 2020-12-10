@@ -7,5 +7,5 @@ def GenerarClave():
         clave.append(chr(random.randrange(33,126)))
     return "". join(clave)
 
-h = GenerarClave()
-print (h)
+ImprimirGenerarClave = GenerarClave()
+print (ImprimirGenerarClave)
